@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url(./container.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./models.css);
+@import url(./products.css);
+@import url(./carousel.css);
+@import url(./newsletter.css);
+@import url(./footer.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+*, *::before *::after {
+    box-sizing: border-box;
+}
+
+#navbar-responsive {
+	position: fixed;
+  top: 0;
+	bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  transition: 0.5s;
+}
